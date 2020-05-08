@@ -16,14 +16,13 @@ The following **required** functionality is completed:
 
 The following **extensions** are implemented:
 
-* [ ] When a map marker is created, the pin is animated.
-* [ ] List anything else that you did to improve the app functionality or design!
+* [X] Changed color schemes of the map
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-
+https://imgur.com/a/sOskbsu
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
