@@ -35,10 +35,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val userMapsFromFile = deserializedUserMaps(this)
-        userMaps = generateSampleData().toMutableList()
-        userMaps.addAll(userMapsFromFile)
-        //userMaps = deserializedUserMaps(this).toMutableList()
+        //val userMapsFromFile = deserializedUserMaps(this)
+        //userMaps = generateSampleData().toMutableList()
+        //userMaps.addAll(userMapsFromFile)
+        userMaps = deserializedUserMaps(this).toMutableList()
 
         // set layout manager on the recycler view
         rvMaps.layoutManager = LinearLayoutManager (this)
